@@ -84,6 +84,10 @@ LIMIT
   200 ALLOW FILTERING;
 ```
 
+Cassandra no soporta `JOIN` ni subconsultas, por lo que es importante diseñar el esquema de datos de manera que se minimicen las dependencias entre tablas. En su lugar, se pueden utilizar técnicas como la denormalización y la duplicación de datos para optimizar las consultas.
+
+Además, la busqueda de texto completo no está soportada de forma nativa en Cassandra, pero se puede implementar utilizando herramientas externas como Apache Solr o Elasticsearch.
+
 ## Bases orientadas a grafos
 
 ### Neo4j
