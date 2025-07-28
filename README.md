@@ -91,3 +91,6 @@ Además, la busqueda de texto completo no está soportada de forma nativa en Cas
 ## Bases orientadas a grafos
 
 ### Neo4j
+
+Neo4j es una base de datos orientada a grafos que utiliza un modelo de datos basado en nodos, relaciones y propiedades. Es ideal para representar y consultar datos altamente conectados, como redes sociales, sistemas de recomendación y análisis de relaciones.
+Para acceder a su documentación oficial, puedes visitar: [Neo4j Documentation](https://neo4j.com/docs/).
